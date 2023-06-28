@@ -1,0 +1,2 @@
+drusun git remote add origin https://github.com/MelihKrts/30-Days-Of-Javascript-Solution.git
+git push -u origin main
