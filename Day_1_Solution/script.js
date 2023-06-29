@@ -9,21 +9,23 @@
 // 4) See variable.js
 // 5) See datatypes.js
 
-// 6) let name, married, age, surname
+/* 6)*/ let name, married, age, surname
 
-/* 7) let name = "Melih";
+// 7)
+      let name = "Melih";
       let married = false;
       let age = 22;
       let surname = "Karataş";
-*/
 
-/* 8) let name = "Melih";
+
+// 8) 
+
+      let name = "Melih";
       let married = false;
       let age = 22;
       let surname = "Karataş";
-*/
 
-// 9) let name = "Melih", married = false, age = 22, surname = "Karataş";
+/*  9) */ let name = "Melih", married = false, age = 22, surname = "Karataş";
 
 // 10) 
 
