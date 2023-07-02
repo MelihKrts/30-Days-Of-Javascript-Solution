@@ -7,5 +7,5 @@ import {
     webTechs
 } from './web_techs.js'
 
-// console.log(countries);
-// console.log(webTechs);
+console.log(countries);
+console.log(webTechs);
