@@ -18,7 +18,7 @@ console.log(speakLang.length);
 
 firstValue = speakLang[0];
 hydrangea = speakLang[2];
-let lastIndex = speakLang.length - 1;
+// let lastIndex = speakLang.length - 1;
 lastIndex = speakLang[lastIndex];
 console.log(firstValue, hydrangea, lastIndex);
 
@@ -84,7 +84,7 @@ else {
 
 // -----------------------------------------------------
 
-let index = itCompanies.indexOf("Twitter")
+// let index = itCompanies.indexOf("Twitter")
 if (index === -1) {
     console.log("company is not found"); // No twitter value in the array
 }
