@@ -70,19 +70,19 @@ console.log(countries);
 
 // Exercise 2.6
 
-const countries = [
-    'Albania',
-    'Bolivia',
-    'Canada',
-    'Denmark',
-    'Ethiopia',
-    'Finland',
-    'Germany',
-    'Hungary',
-    'Ireland',
-    'Japan',
-    'Kenya'
-];
+// const countries = [
+//     'Albania',
+//     'Bolivia',
+//     'Canada',
+//     'Denmark',
+//     'Ethiopia',
+//     'Finland',
+//     'Germany',
+//     'Hungary',
+//     'Ireland',
+//     'Japan',
+//     'Kenya'
+// ];
 
 let short = '';
 for (let i = 0; i < countries.length; i++) {
@@ -100,19 +100,19 @@ console.log(emptyArray);
 
 // Exercise 2.7
 
-const countries = [
-    'Albania',
-    'Bolivia',
-    'Canada',
-    'Denmark',
-    'Ethiopia',
-    'Finland',
-    'Germany',
-    'Hungary',
-    'Ireland',
-    'Japan',
-    'Kenya'
-];
+// const countries = [
+//     'Albania',
+//     'Bolivia',
+//     'Canada',
+//     'Denmark',
+//     'Ethiopia',
+//     'Finland',
+//     'Germany',
+//     'Hungary',
+//     'Ireland',
+//     'Japan',
+//     'Kenya'
+// ];
 
 const arr = [];
 for (let i = 0; i < countries.length; i++) {
@@ -126,7 +126,7 @@ else
 
 // Exercise 2.8
 
-const arr = [];
+// const arr = [];
 for (let i = 0; i < countries.length; i++) {
     if (countries[i].includes('ia'))
         arr.push(countries[i])
@@ -167,7 +167,7 @@ const webTechs = [
     'MongoDB'
 ]
 
-let longest = webTechs.sort((a, b) => b.length - a.length)[0];
+// let longest = webTechs.sort((a, b) => b.length - a.length)[0];
 console.log(longest);
 
 // Exercise 2.12
