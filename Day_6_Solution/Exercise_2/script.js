@@ -145,7 +145,7 @@ https://stackoverflow.com/questions/6521245/finding-longest-string-in-array
 let longest = countries.sort((a, b) => b.length - a.length)[0];
 console.log(longest);
 
-Exercise 2.10
+// Exercise 2.10
 
 let fiveArr = [];
 for (let i = 0; i < countries.length; i++) {
