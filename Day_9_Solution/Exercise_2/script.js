@@ -34,7 +34,7 @@ console.log(totalPrice);
 
 // Exercise 2.3
 
-const countries = require('./countries_data.js');
+const countries = require('../countries_data.js');
 
 function categorizeCountries() {
   const patterns = ['land', 'ia', 'island', 'stan'];
