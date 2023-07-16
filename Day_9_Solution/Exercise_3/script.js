@@ -6,18 +6,18 @@
 
 const countries = require('../countries_data.js');
 
-// const sortedCountriesByName = countries.slice().sort((a, b) => a.name.localeCompare(b.name));
-// const sortedCapital = countries.slice().sort((a, b) => a.capital.localeCompare(b.capital));
-// const sortedPopulation = countries.slice().sort((a, b) => a.population - b.population);
+const sortedCountriesByName = countries.slice().sort((a, b) => a.name.localeCompare(b.name));
+const sortedCapital = countries.slice().sort((a, b) => a.capital.localeCompare(b.capital));
+const sortedPopulation = countries.slice().sort((a, b) => a.population - b.population);
 
-// console.log('Sorted by Name:');
-// sortedCountriesByName.forEach(country => console.log(country.name));
+console.log('Sorted by Name:');
+sortedCountriesByName.forEach(country => console.log(country.name));
 
-// console.log('\nSorted by Capital:');
-// sortedCapital.forEach(country => console.log(country.capital));
+console.log('\nSorted by Capital:');
+sortedCapital.forEach(country => console.log(country.capital));
 
-// console.log('\nSorted by Population:');
-// sortedPopulation.forEach(country => console.log(country.population));
+console.log('\nSorted by Population:');
+sortedPopulation.forEach(country => console.log(country.population));
 
 
 // Exercise 3.2
