@@ -76,7 +76,7 @@ for (let i = 0; i <= 10; i++) {
 
 // Exercise 1.6
 
-let string = "i  i^2  i^3";
+// let string = "i  i^2  i^3";
 console.log(string);
 for (let i = 0; i <= 10; i++) {
     console.log(` ${i}  ${i ** 2}  ${i ** 3}`);
