@@ -49,11 +49,11 @@ const personAccount = {
     }
 }
 
-// console.log(personAccount.accountInfo());
-// personAccount.addIncome("Annual", 15000);
-// personAccount.addExpense("Art", 750);
-// console.log("Total Income: ", personAccount.totalIncome());
-// console.log("Balance: ", personAccount.accountBalance());
+console.log(personAccount.accountInfo());
+personAccount.addIncome("Annual", 15000);
+personAccount.addExpense("Art", 750);
+console.log("Total Income: ", personAccount.totalIncome());
+console.log("Balance: ", personAccount.accountBalance());
 
 // Exercise 3.1 Solution
 
