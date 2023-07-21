@@ -4,40 +4,40 @@
 
 // Exercise 1.1
 
-const dog = {};
+// const dog = {};
 
 
 // Exercise 1.2
 
-const dog = {}
+// const dog = {}
 console.log(dog)
 
 
 // Exercise 1.3
 
-const dog = {
-    name: "Lucky",
-    legs: 4,
-    color: "White",
-    age: 3,
-    bark: function () {
-        return "Woof Woof";
-    }
-}
+// const dog = {
+//     name: "Lucky",
+//     legs: 4,
+//     color: "White",
+//     age: 3,
+//     bark: function () {
+//         return "Woof Woof";
+//     }
+// }
 
 
 
 // Exercise 1.4
 
-const dog = {
-    name: "Lucky",
-    legs: 4,
-    color: "White",
-    age: 3,
-    bark: function () {
-        return `Woof Woof`
-    }
-}
+// const dog = {
+//     name: "Lucky",
+//     legs: 4,
+//     color: "White",
+//     age: 3,
+//     bark: function () {
+//         return `Woof Woof`
+//     }
+// }
 
 console.log(dog.name);
 console.log(dog.legs);
