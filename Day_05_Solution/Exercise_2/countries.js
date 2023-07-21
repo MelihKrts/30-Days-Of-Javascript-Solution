@@ -12,6 +12,7 @@ export const countries = [
     'Kenya'
 ]
 
+console.log(countries);
 // Exercise 2.4
 
 const control = countries.includes("Ethiopia");

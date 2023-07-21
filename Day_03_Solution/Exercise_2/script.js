@@ -59,9 +59,9 @@ alert(circumference);
 
 // y=2x-2 = x=0
 
-//  let a = 1;  // x
-//  let b = 2;  // 
-//  let c = -2; // y
+ let a = 1;  // x
+ let b = 2;  // 
+ let c = -2; // y
 
 let chapterA = a / a;
 let chapterB = b / a;

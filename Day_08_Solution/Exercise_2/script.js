@@ -56,8 +56,8 @@ const users = {
     }
 }
 
-// const result = Object.entries(users).sort((a, b) => a[1].skills.length - b[1].skills.length).pop();
-// console.log(result)
+const result = Object.entries(users).sort((a, b) => a[1].skills.length - b[1].skills.length).pop();
+console.log(result)
 
 
 // Exercise 2.2
@@ -90,7 +90,7 @@ console.log(copyUsers)
 
 // Exercise 2.5
 
-// const keys = Object.keys(users);
+const keys = Object.keys(users);
 console.log(keys);
 
 

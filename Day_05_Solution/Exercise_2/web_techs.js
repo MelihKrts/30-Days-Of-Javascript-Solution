@@ -7,6 +7,7 @@ export const webTechs = [
     'Node',
     'MongoDB'
 ]
+console.log(webTechs);
 
 // Exercise 2.5
 
