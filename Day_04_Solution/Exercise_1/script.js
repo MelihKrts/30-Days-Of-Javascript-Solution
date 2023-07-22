@@ -50,14 +50,15 @@ if (a > b) {
     console.log("a is greater than b");
 }
 
-else{
+else {
     console.log("a is less than b");
 }
 
 // ternary operator
 
-
-let result = a > b ? "4 is greater than 3" : "3 is greater than 4";
+let x = 4;
+let y = 3;
+let result = x > y ? "4 is greater than 3" : "3 is greater than 4";
 console.log(result);
 
 // Exercise 1.4
