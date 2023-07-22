@@ -17,8 +17,8 @@ const products = [
 
 // Exercise 2.1
 
-const totalPrice = products.map(product => product.price).filter(price => price > 0).reduce((accumulator, currentPrice) => accumulator + currentPrice, 0);
-console.log(totalPrice);
+// const totalPrice = products.map(product => product.price).filter(price => price > 0).reduce((accumulator, currentPrice) => accumulator + currentPrice, 0);
+// console.log(totalPrice);
 
 // Exercise 2.2
 
