@@ -56,8 +56,8 @@ else{
 
 // ternary operator
 
-// let a = 4;
-// let b = 3;
+let a = 4;
+let b = 3;
 let result = a > b ? "4 is greater than 3" : "3 is greater than 4";
 console.log(result);
 
