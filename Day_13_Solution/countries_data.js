@@ -2011,3 +2011,5 @@ const countries = [
     currency: 'Botswana pula'
   }
 ]
+
+export default countries
