@@ -56,17 +56,17 @@ const users = {
     }
 }
 
-// const result = Object.entries(users).sort((a, b) => a[1].skills.length - b[1].skills.length).pop();
-// console.log(result)
+const result = Object.entries(users).sort((a, b) => a[1].skills.length - b[1].skills.length).pop();
+console.log(result)
 
 
 // Exercise 2.2
 
-const result = Object.values(users).filter(user => user.isLoggedIn).length;
+const resulting = Object.values(users).filter(user => user.isLoggedIn).length;
 const bigPoints = Object.values(users).filter(user => user.points >= 50).length
 
 console.log(bigPoints);
-console.log(result);
+console.log(resulting);
 
 
 // Exercise 2.3

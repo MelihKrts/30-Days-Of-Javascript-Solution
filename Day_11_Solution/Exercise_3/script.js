@@ -13,9 +13,9 @@ for (const [countryKey, countryValue] of Object.entries(countries)) {
 
 // Exercise 3.2
 
-// const student = ['David', ['HTM', 'CSS', 'JS', 'React'], [98, 85, 90, 95]]
-// const [name, skills, [, , jsScore, reactScore]] = student;
-console.log(name, skills, jsScore, reactScore);
+const student = ['David', ['HTM', 'CSS', 'JS', 'React'], [98, 85, 90, 95]]
+const [name, studentSkills, [, , jsScore, reactScore]] = student;
+console.log(name, studentSkills, jsScore, reactScore);
 
 
 // Exercise 3.3
@@ -41,7 +41,7 @@ console.log(structuredObject);
 
 // Exercise 3.4
 
-const student = {
+const studentObj = {
     name: 'David',
     age: 25,
     skills: {
@@ -62,35 +62,35 @@ const student = {
     }
 }
 
-console.log(student);
+console.log(studentObj);
 
 const newStudent = {
-    ...student,
+    ...studentObj,
 
     skills: {
-        ...student.skills,
+        ...studentObj.skills,
         frontEnd: [
             { skill: 'Bootstrap', level: 8 },
-            ...student.skills.frontEnd,
+            ...studentObj.skills.frontEnd,
         ],
 
         backEnd: [
             {
                 skill: 'Express', level: 9
             },
-            ...student.skills.backEnd,
+            ...studentObj.skills.backEnd,
         ],
 
         dataBase: [
             {
                 skill: 'SQL', level: 8
             },
-            ...student.skills.dataBase
+            ...studentObj.skills.dataBase
         ],
 
         dataScience: [
             'SQL',
-            ...student.skills.dataScience
+            ...studentObj.skills.dataScience
         ]
     }
 
@@ -103,7 +103,7 @@ console.log(newStudent);
 var { skills } = newStudent;
 console.log("Copied data", skills)
 
-var { skills } = student;
+var { skills } = studentObj;
 console.log("Original data", skills);
 
 

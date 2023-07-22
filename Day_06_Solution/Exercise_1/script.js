@@ -12,7 +12,7 @@ for (let i = 0; i < 10; i++) {
 
 // While loop
 
-// let i = 0;
+let i = 0;
 while (i < 10) {
     i++;
     console.log(i)
@@ -20,12 +20,12 @@ while (i < 10) {
 
 // Do-while loop
 
-// let i = 0;
+let a = 0;
 do {
-    i++;
-    console.log(i);
+    a++;
+    console.log(a);
 }
-while (i < 10)
+while (a < 10)
 
 // Exercise 1.2
 
@@ -37,19 +37,19 @@ for (let i = 10; i > 0; i--) {
 
 // While loop
 
-// let i = 10;
-while (i > 0) {
-    i--;
-    console.log(i)
+let k = 10;
+while (k > 0) {
+    k--;
+    console.log(k)
 }
 
 // Do-while loop
 
-let i = 10;
+let j = 10;
 do {
-    i--;
-    console.log(i);
-} while (i > 0)
+    j--;
+    console.log(j);
+} while (j > 0)
 
 // Exercise 1.3
 
@@ -76,8 +76,8 @@ for (let i = 0; i <= 10; i++) {
 
 // Exercise 1.6
 
-// let string = "i  i^2  i^3";
-console.log(string);
+let strings = "i  i^2  i^3";
+console.log(strings);
 for (let i = 0; i <= 10; i++) {
     console.log(` ${i}  ${i ** 2}  ${i ** 3}`);
 }
@@ -107,16 +107,16 @@ https://onecompiler.com/javascript/3ww4c5kmq
 */
 
 let count = 0
-// let i, j
-for (j = 2; j <= 100; j++) {
-    for (i = 1; i <= j; i++) {
-        if (j % i == 0)
+let x, y
+for (y = 2; y <= 100; y++) {
+    for (x = 1; x <= y; x++) {
+        if (y % x == 0)
             count++
 
     }
 
     if (count == 2)
-        console.log(j)
+        console.log(y)
     count = 0
 }
 
@@ -130,8 +130,8 @@ console.log(`The sum of all numbers from 0 to 100 is ${sum}.`);
 
 // Exercise 1.11
 
-// let evens = 0;
-// let odd = 0;
+let evens = 0;
+let odd = 0;
 
 for (let a = 0; a <= 100; a++) {
     if (a % 2 == 0) {
@@ -145,8 +145,6 @@ console.log(`The sum of all evens from 0 to 100 is ${evens}. And the sum of all 
 
 // Exercise 1.12
 
-let evens = 0;
-let odd = 0;
 
 for (let a = 0; a <= 100; a++) {
     if (a % 2 == 0) {
@@ -157,9 +155,8 @@ for (let a = 0; a <= 100; a++) {
     }
 }
 
-
 const sumArray = [];
-let split = sumArray.push(evens,odd);
+let split = sumArray.push(evens, odd);
 
 console.log(sumArray)
 
@@ -182,5 +179,6 @@ while (random.length < 5) {
 console.log(random);
 
 // Exercise 1.15
-const result = Math.random().toString(36).substring(2,7);
+
+const result = Math.random().toString(36).substring(2, 7);
 console.log(result);
