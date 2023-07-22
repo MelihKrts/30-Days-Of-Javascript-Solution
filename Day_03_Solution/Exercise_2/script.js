@@ -20,9 +20,9 @@ const peripeterPrompt = prompt("Enter the value of the length of the first side 
 const secondPerPrompt = prompt("Enter the value of the length of the second side of the triangle");
 const thirdPerPrompt = prompt("Enter the value of the length of the third side of the triangle");
 
-let a = peripeterPrompt;
-let b = secondPerPrompt;
-let c = thirdPerPrompt;
+let first = peripeterPrompt;
+let second = secondPerPrompt;
+let third = thirdPerPrompt;
 
 const convertOne = Number(a);
 const convertTwo = Number(b);
@@ -59,9 +59,9 @@ alert(circumference);
 
 // y=2x-2 = x=0
 
-//  let a = 1;  // x
-//  let b = 2;  // 
-//  let c = -2; // y
+ let a = 1;  // x
+ let b = 2;  // 
+ let c = -2; // y
 
 let chapterA = a / a;
 let chapterB = b / a;
