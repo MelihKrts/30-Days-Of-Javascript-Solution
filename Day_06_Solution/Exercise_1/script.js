@@ -107,7 +107,7 @@ https://onecompiler.com/javascript/3ww4c5kmq
 */
 
 let count = 0
-// let i, j
+let i, j
 for (j = 2; j <= 100; j++) {
     for (i = 1; i <= j; i++) {
         if (j % i == 0)
@@ -145,8 +145,8 @@ console.log(`The sum of all evens from 0 to 100 is ${evens}. And the sum of all 
 
 // Exercise 1.12
 
-// let evens = 0;
-// let odd = 0;
+let evens = 0;
+let odd = 0;
 
 for (let a = 0; a <= 100; a++) {
     if (a % 2 == 0) {
