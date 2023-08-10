@@ -1,0 +1,84 @@
+.title h2 {
+    color: #FFA500;
+}
+
+.title p {
+    font-size: 1rem;
+}
+
+body {
+    background: #eee !important;
+}
+
+.button {
+    background-color: #FFA500;
+    border-radius: 5px;
+    margin: 0 10px;
+    border: none;
+    padding: 10px;
+    width: 15rem;
+}
+
+progress {
+    -webkit-appearance: none;
+    appearance: none;
+    color: #f2f2f2;
+    width: 45%;
+    border: unset;
+    height: 2em;
+    margin-left: 2em;
+}
+
+progress::-moz-progress-bar {
+    background: #FFA500;
+}
+  
+progress::-webkit-progress-value {
+    background: #FFA500;
+}
+  
+progress::-webkit-progress-bar {
+    background: #f2f2f2;
+}
+
+
+
+.input-container {
+    width: 100%;
+    padding: 1em;
+}
+
+.brief, button {
+    margin-top: 1em;
+}
+
+.component {
+    display: flex;
+    justify-content: center;
+}
+
+.description {
+    width: 11em;
+    font-size: 1.2rem;
+    text-align: left;
+}
+
+.get-started {
+    margin-top: 3em;
+    background: #f2f2f2;
+    padding: 2em;
+}
+
+.count {
+    width: 7em;
+    margin-left: 10px;
+}
+
+input:focus {
+    border-width: 3px;
+}
+
+
+header {
+    padding: 20px;
+}
