@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leaderboard</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+    <style>
+        .special-fz {
+            font-size: 2rem;
+        }
+
+        input {
+            margin: 5px 10px;
+            padding: 5px
+        }
+
+        button {
+            padding: 10px;
+            border: none;
+            border-radius: 0.5rem;
+            width: 200px;
+        }
+
+        .screen {
+            background-color: #42a5f5;
+        }
+
+        h5 {
+            margin: 15px;
+            padding: 5px;
+            color: #fff;
+        }
+
+        .trash-2 {
+            font-size: 2rem;
+            height: 40px;
+            width: 40px;
+        }
+
+        .increase-btn {
+            color: #43a047;
+            font-size: 1.25rem;
+            font-weight: bold;
+            padding: 5px;
+            margin: 10px;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background-color: #fff;
+            text-align: center;
+            vertical-align: middle;
+        }
+
+        .remove-btn {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background-color: #fff;
+            text-align: center;
+            vertical-align: middle;
+            position: relative;
+        }
+
+        .decrease-btn {
+            color: #f44336;
+            font-size: 1.25rem;
+            font-weight: bold;
+            text-align: center;
+            padding: 5px;
+            margin: 10px;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background-color: #fff;
+            vertical-align: middle;
+        }
+
+        .remove-btn svg {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        #leaderboard span {
+            color: #fff;
+            margin: 15px;
+        }
+
+    </style>
+
+</head>
+
+<body class="d-flex min-vh-100 justify-content-center align-items-center">
+
+    <main class="w-100">
+
+        <div class="w-100">
+            <div class="container">
+
+                <div class="row">
+
+                    <div class="col">
+                        <div class="d-flex justify-content-center align-items-center">
+                            <h5 class="special-fz">30 Days Of Javascript Challange Leaderboard</h5>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        <div class="d-flex justify-content-center align-items-center">
+
+                            <form action="" id="form">
+                                <input type="text" name="firstName" id="firstName" placeholder=" First Name" required>
+                                <input type="text" name="lastName" id="lastName" placeholder="Last Name" required>
+                                <input type="text" name="countryName" id="countryName" placeholder="Country" required>
+                                <input type="number" name="playerScore" id="score" placeholder="Player Score" required>
+                                <button id="btn">Add Player</button>
+                            </form>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row mt-4">
+
+                    <div class="col">
+
+                        <div class="d-flex justify-content-center align-items-center">
+
+                            <div class="w-100 bg-purple-100 screen">
+
+                                <div class="d-flex justify-between align-items-center">
+
+                                    <div id="leaderboard"></div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </main>
+
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script>
+        feather.replace();
+    </script>
+
+</body>
+
+</html>
